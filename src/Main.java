@@ -16,7 +16,8 @@ public class Main {
         }
         Random random = new Random();
         String movie = movies.get(random.nextInt(movies.size()));
- //rA       System.out.println(movie);
+        //         remove commented below to know directly the movie title
+        //       System.out.println(movie);
 
         List<Character> playerGuesses = new ArrayList<>();
         List<Character> wrongGuesses = new ArrayList<>();
